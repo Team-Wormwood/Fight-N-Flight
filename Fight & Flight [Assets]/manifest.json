@@ -1,0 +1,48 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "uuid": "4609ccf1-c89a-4bed-aef3-19179e7cab8b",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            0
+        ]
+    },
+    "dependencies": [
+        {
+            "uuid": "cc0befcc-f2fd-456d-b46c-4491b38e2d0d",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "83482c83-7b5e-4589-8ba5-e55bea0d2af1",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "metadata": {
+        "license": "CC-BY-NC-SA-4.0",
+        "authors": [
+            "luth",
+            "yanasakana",
+            // and I GUESS 
+            "dankershim"
+        ]
+    }
+}

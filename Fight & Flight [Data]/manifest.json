@@ -1,0 +1,70 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "cc0befcc-f2fd-456d-b46c-4491b38e2d0d",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			19,
+			0
+		]
+	},
+	"dependencies": [
+		{
+			// mojang-minecraft
+			"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+			"version": [
+				0,
+				1,
+				0
+			]
+		},
+		{
+			// Packs
+			"uuid": "4609ccf1-c89a-4bed-aef3-19179e7cab8b",
+			"version": [
+				0,
+				1,
+				0
+			]
+		}
+	],
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"description": "Scripts",
+			"uuid": "5fde0828-bf05-4a2d-bd93-81c10d93d009",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/sakana.js"
+		},
+		{
+			"type": "data",
+			"uuid": "cc9c5a99-ab62-4c39-a2af-e735752d2583",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"license": "CC-BY-NC-SA-4.0",
+		"authors": [
+			"luth",
+			"yanasakana",
+			// and I GUESS 
+			"dankershim"
+		]
+	}
+}
