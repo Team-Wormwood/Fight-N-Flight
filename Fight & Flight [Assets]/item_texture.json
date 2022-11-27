@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+      "nether_chili": {
+          "textures": "textures/items/nether_chili"
+      }
+  },
+  "texture_name": "atlas.items"
+}

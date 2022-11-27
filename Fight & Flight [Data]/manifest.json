@@ -37,18 +37,6 @@
 	],
 	"modules": [
 		{
-			"type": "script",
-			"language": "javascript",
-			"description": "Scripts",
-			"uuid": "5fde0828-bf05-4a2d-bd93-81c10d93d009",
-			"version": [
-				1,
-				0,
-				0
-			],
-			"entry": "scripts/sakana.js"
-		},
-		{
 			"type": "data",
 			"uuid": "cc9c5a99-ab62-4c39-a2af-e735752d2583",
 			"version": [

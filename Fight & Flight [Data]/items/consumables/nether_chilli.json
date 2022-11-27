@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wormwood:nether_chili",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:use_duration": 1.75,
+			"minecraft:use_animation": "eat",
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.crop"
+			},
+			"minecraft:icon": {
+				"texture": "nether_chili"
+			},
+			"minecraft:food": {
+				"nutrition": 2,
+				"saturation_modifier": "poor"
+			}
+		}
+	}
+}
