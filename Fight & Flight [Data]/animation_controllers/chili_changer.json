@@ -1,0 +1,39 @@
+{
+  "format_version": "1.19.0",
+  "animation_controllers": {
+    "controller.animation.player.chili_changer": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "chili_add": "q.is_sneaking  && q.is_illager_captain"
+            }
+          ]
+        },
+        "chili_add": {
+          "transitions": [
+            {
+              "chili_remove": " q.is_illager_captain"
+            },
+            {
+              "default": "!q.is_illager_captain"
+            }
+          ],
+          "on_entry": ["@s chili_breath_end", "/say hi"]
+        },
+        "chili_remove": {
+          "transitions": [
+            {
+              "chili_add": " q.is_illager_captain"
+            },
+            {
+              "default": "!q.is_illager_captain"
+            }
+          ],
+          "on_entry": ["@s chili_breath", "/say bye"]
+        }
+      }
+    }
+  }
+}
